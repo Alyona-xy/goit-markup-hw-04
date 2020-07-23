@@ -192,6 +192,7 @@
     .about-us {
         padding-bottom: 94px;
         padding-top: 94px;
+        box-sizing: border-box;
     }
     
     .about-us-list {
@@ -239,6 +240,7 @@
     
     .services .container {
     display:flex;
+    box-sizing: border-box;
     }
     
     .services-list-item:not(:last-child) {
@@ -278,6 +280,7 @@
         justify-content: center;
         margin-top: 0px;
         margin-bottom: 0px;
+        box-sizing: border-box;
     }
     
     .our-team .subtitle {
@@ -347,6 +350,7 @@
     
     .constant-clients .container {
         display: flex;
+        box-sizing: border-box;
     }
     
     .constant-clients-list-item:not(:last-child) {
@@ -373,6 +377,7 @@
     .footer-container .container {
         display:flex;
         align-items: baseline;
+        box-sizing: border-box;
         }
     
     .footer-info {
@@ -449,6 +454,7 @@
     .portfolio .container {
         display: flex;
         justify-content: center;
+        box-sizing: border-box;
     }
 
     .portfolio-filter-list-item {
