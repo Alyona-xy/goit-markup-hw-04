@@ -67,6 +67,8 @@ p {
     color: var(--accent-color);
 }
 
+
+/* Header */
 .header .container {
     display:flex;
     justify-content: space-between;
@@ -114,11 +116,42 @@ align-items: center;
 }
 
 .contacts-list-item {
-display:flex;
+display: flex;
 }
 
 .contacts-list-item:not(:last-child) {
 margin-right: 30px;
+}
+
+.contacts-mail-link::before {
+    display: inline-block;
+    content: '';
+    height: 11px;
+    width: 16px;
+    background-image: url(../images/svg/header/envelope.svg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.contacts-phone-link::before {
+    display: inline-block;
+    content: '';
+    height: 15px;
+    width: 10px;
+    background-image: url(../images/svg/header/smartphone.svg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+    margin-right: 10px;
+}
+
+
+.contacts-mail-link,
+.contacts-phone-link {
+    display: flex;
+    align-items: center;
 }
 
 .address {
