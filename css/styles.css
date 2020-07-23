@@ -442,8 +442,6 @@
     .portfolio {
         padding-top: 94px;
         padding-bottom: 94px;
-        padding-right: 214px;
-        padding-left: 214px;
     }
 
     .portfolio .container {
@@ -489,8 +487,6 @@
         display:flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        padding-left: 15px;
-        padding-right: 15px;
     }
     
     .portfolio-projects-list-item {
