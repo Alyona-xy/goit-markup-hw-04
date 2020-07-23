@@ -436,15 +436,26 @@
     }
     
     
+
+
     /* Портфолио Main*/
-    
+    .portfolio {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        padding-right: 214px;
+        padding-left: 214px;
+    }
+
     .portfolio .container {
         display: flex;
-        padding-top: 94px;
-        padding-bottom: 50px;
         justify-content: center;
     }
-    
+
+    .portfolio-filter-list-item {
+        height: 38px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
     .portfolio-filter-list-item:not(:last-child) {
         margin-right: 8px;
     }
@@ -474,12 +485,12 @@
     }
     
     /* Проекты */
-    .portfolio-container .container {
+    .portfolio-projects .container {
         display:flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        padding-top: 0px;
-        padding-bottom: 94px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     .portfolio-projects-list-item {
