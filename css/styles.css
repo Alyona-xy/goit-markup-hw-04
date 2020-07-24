@@ -444,11 +444,16 @@
     .portfolio .container {
         display: flex;
         justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .portfolio-filter-list {
+    margin-bottom: 50px;
     }
 
     .portfolio-filter-list-item {
         height: 38px;
-        margin-bottom: 50px;
         margin-right: 0px;
     }
     .portfolio-filter-list-item:not(:last-child) {
@@ -480,6 +485,7 @@
     }
     
     /* Проекты */
+
     .portfolio-projects .container {
         display:flex;
         flex-wrap: wrap;
