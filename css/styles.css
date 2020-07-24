@@ -322,6 +322,11 @@
         width: 44px;
         height: 44px;
     }
+
+    .our-team-list-item .social-links .social-links-item {
+        margin-bottom: 24px;
+    }
+
     .social-links-item:not(:last-child) {
         margin-right: 10px;
     }
