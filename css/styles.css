@@ -32,6 +32,7 @@
     }
     
     .container {
+        box-sizing: border-box;
         width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
@@ -70,7 +71,6 @@
     .header .container {
         display:flex;
         justify-content: space-between;
-        box-sizing: border-box;
     }
     
     .navigation {
@@ -143,17 +143,8 @@
     /* Hero */
     .hero {
     text-align: center;
-    padding-left: 452px;
-    padding-right: 452px;
     padding-top: 200px;
     padding-bottom: 200px;
-    }
-    
-    .hero .container {
-    width: 696px;
-    height: 200px;
-    padding-left: 0px;
-    padding-right: 0px;
     }
     
     .hero-title {
@@ -192,7 +183,6 @@
     .about-us {
         padding-bottom: 94px;
         padding-top: 94px;
-        box-sizing: border-box;
     }
     
     .about-us-list {
@@ -240,7 +230,6 @@
     
     .services .container {
     display:flex;
-    box-sizing: border-box;
     }
     
     .services-list-item:not(:last-child) {
@@ -280,7 +269,6 @@
         justify-content: center;
         margin-top: 0px;
         margin-bottom: 0px;
-        box-sizing: border-box;
     }
     
     .our-team .subtitle {
@@ -350,7 +338,6 @@
     
     .constant-clients .container {
         display: flex;
-        box-sizing: border-box;
     }
     
     .constant-clients-list-item:not(:last-child) {
@@ -377,7 +364,6 @@
     .footer-container .container {
         display:flex;
         align-items: baseline;
-        box-sizing: border-box;
         }
     
     .footer-info {
@@ -453,7 +439,6 @@
     .portfolio .container {
         display: flex;
         justify-content: center;
-        box-sizing: border-box;
     }
 
     .portfolio-filter-list-item {
@@ -494,7 +479,6 @@
         display:flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        box-sizing: border-box;
     }
     
     .portfolio-projects-list-item {
