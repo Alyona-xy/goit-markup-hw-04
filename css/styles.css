@@ -316,6 +316,7 @@
         justify-content: center;
         padding-left: 32px;
         padding-right: 32px;
+        padding-bottom: 24px;
     }
     
     .social-links-item {
@@ -323,9 +324,9 @@
         height: 44px;
     }
 
-    .our-team-list-item .social-links .social-links-item {
+   /*  .our-team-list-item .social-links .social-links-item {
         margin-bottom: 24px;
-    }
+    } */
 
     .social-links-item:not(:last-child) {
         margin-right: 10px;
