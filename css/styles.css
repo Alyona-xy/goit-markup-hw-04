@@ -146,6 +146,19 @@
     padding-top: 200px;
     padding-bottom: 200px;
     }
+
+    .overlay {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.8),
+            rgba(47, 48, 58, 0.8)
+        ),
+        url("../images/jpg/main/header-img.jpg");
+        background-color: rgb(47, 48, 58);
+        background-repeat: no-repeat;
+    }
     
     .hero-title {
     font-weight: 900;
@@ -154,8 +167,7 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    /* color: var(--background-color) */
-    color: tomato;
+    color: var(--background-color);
     margin-bottom: 30px;
     }
     
@@ -166,6 +178,7 @@
         margin: auto;
         border: 0px;
         height: 50px;
+        cursor: pointer;
     }
     
     .button-text {
@@ -178,6 +191,7 @@
     padding-left: 32px;
     padding-right: 32px;
     }
+
     
     /* About us */
     .about-us {
