@@ -448,11 +448,18 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-
-    .portfolio-filter-list {
-    margin-bottom: 50px;
+    .portfolio-projects {
+        box-sizing: border-box;
+    }
+    .portfolio-projects .portfolio-projects-list {
+        justify-content: start;
+        box-sizing: border-box;
     }
 
+    .portfolio-filter-list {
+        margin-bottom: 50px;
+    }
+    
     .portfolio-filter-list-item {
         height: 38px;
         margin-right: 0px;
@@ -487,7 +494,7 @@
     
     /* Проекты */
 
-    .portfolio-projects .container {
+    .portfolio-projects-list {
         display:flex;
         flex-wrap: wrap;
         justify-content: flex-start;
