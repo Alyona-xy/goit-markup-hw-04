@@ -347,8 +347,34 @@
     }
     
     .social-links-item {
-        width: 44px;
-        height: 44px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .social-links-item:hover,
+    .social-links-item:focus {
+        background-color: var(--accent-color);
+        cursor: pointer;
+    }
+
+    .social-links-item-link:hover,
+    .social-links-item-link:focus {
+        color: var(--background-color);
+    }
+
+    .social-links-item-link-icon-svg {
+        width: 20px;
+        height: 20px;
+        fill: #AFB1B8;
+    }
+
+    .social-links-item-link-icon-svg:hover,
+    .social-links-item-link-icon-svg:focus {
+        fill: var(--background-color);
     }
 
    /*  .our-team-list-item .social-links .social-links-item {
@@ -372,12 +398,8 @@
     .constant-clients .container {
         display: flex;
     }
-    
-    .constant-clients-list-item:not(:last-child) {
-        margin-right: 30px;
-    }
-    
-    .constant-clients-list-item-icon {
+
+    .constant-clients-list-item {
         display: flex;
         width: 170px;
         height: 90px;
@@ -385,7 +407,23 @@
         border-radius: 4px;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
+    
+    .constant-clients-list-item-icon-svg {
+        fill: #AFB1B8;
+    }
+
+    .constant-clients-list-item-icon-svg:hover,
+    .constant-clients-list-item-icon-svg:focus {
+    fill: var(--accent-color);
+    }
+
+    
+    .constant-clients-list-item:not(:last-child) {
+        margin-right: 30px;
+    }
+    
     
     /* Footer*/
     .footer-container {
@@ -443,7 +481,23 @@
         display: flex;
         text-align: left;
     }
-        
+    
+    .footer-social-links .social-links-list .social-links-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-social-links .social-links-list .social-links-item:hover,
+    .footer-social-links .social-links-list .social-links-item:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    }
+
     .social-list-item-title {
     display: block;
     font-weight: 700;
@@ -459,7 +513,8 @@
     .social-links-item:not(:last-child) {
     margin-right: 10px;
     }
-    
+
+        
     
 
 
