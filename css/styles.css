@@ -116,6 +116,7 @@
     
     .contacts-list-item {
     display:flex;
+    align-items: center;
     }
     
     .contacts-list-item:not(:last-child) {
@@ -126,7 +127,13 @@
     font-style: normal;
     text-decoration: none;
     }
-    
+
+   /*  .contacts-mail-icon {
+    width: 16px;
+    height: 11px;
+    }
+     */
+
     .contacts-mail-icon,
     .contacts-phone-icon {
         margin-right: 10px;
@@ -208,11 +215,17 @@
     }
     
     .about-us-list-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
     margin: auto;
     margin-bottom: 30px;
     }
-    
+
     .about-us-list-item-title {
     margin-top: 0px;
     margin-bottom: 10px;
@@ -531,6 +544,11 @@
     
     .portfolio-projects-list-item:nth-last-child(-n+3){
         margin-bottom: 0px;
+    }
+
+    .portfolio-projects-list-item:hover,
+    .portfolio-projects-list-item:focus {
+        box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
     }
     
     .portfolio-projects-list-item-img {
