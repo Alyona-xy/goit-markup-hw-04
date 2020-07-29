@@ -22,13 +22,14 @@
         text-decoration: none;
         display: block;
         margin: 0;
+        outline: none;
     }
     
     .list {
         list-style: none;
         margin: 0;
         padding: 0;
-    
+        outline: none;
     }
     
     .container {
@@ -53,6 +54,7 @@
     p {
         margin: 0;
     }
+
     /* Header*/
     .logo {
         font-family: var(--secondary-font);
@@ -96,11 +98,15 @@
     .contacts-mail-link:hover,
     .contacts-mail-link:focus,
     .contacts-phone-link:hover,
-    .contacts-phone-link:focus
+    .contacts-phone-link:focus,
     .contacts-phone-icon:hover,
     .contacts-phone-icon:focus {
         color: var(--accent-color);
+        outline: 1px;
+        outline-color: transparent;
     }
+
+
     .active {
     color: var(--accent-color);
     }
@@ -370,11 +376,22 @@
     .social-links-item:focus {
         background-color: var(--accent-color);
         cursor: pointer;
+        /* outline: -webkit-focus-ring-color 1px; */
+    }
+
+    .social-links-item-link:focus {
+        outline: none;
+        background-color: var(--accent-color);
+        cursor: pointer;
     }
 
     .social-links-item:hover .social-links-item-link-icon-svg,
-    .social-links-itek:focus .social-links-item-link-icon-svg
+    .social-links-item:focus .social-links-item-link-icon-svg
     {
+    fill: var(--title-dark-theme-color);
+    }
+
+    .social-links-item-link:focus .social-links-item-link-icon-svg {
     fill: var(--title-dark-theme-color);
     }
 
@@ -416,8 +433,15 @@
     .constant-clients-list-item:hover,
     .constant-clients-list-item:focus {
         border: 1px solid var(--accent-color);
+        outline: none;
     }
     
+    .constant-clients-list-item-icon:focus .constant-clients-list-item-icon-svg {
+        fill: var(--accent-color);
+        outline: none;
+    }
+
+
     .constant-clients-list-item-icon-svg {
         fill: #AFB1B8; 
     }
@@ -591,7 +615,7 @@
     .portfolio-filter-list-button:focus {
     color: var(--background-color);
     background-color: var(--accent-color);
-    border-color: transparent;
+    outline: none;
     }
     
     /* Проекты */
@@ -623,6 +647,10 @@
 
     .portfolio-projects-list-item:hover,
     .portfolio-projects-list-item:focus {
+        box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+    }
+
+    .portfolio-projects-list-item-link:focus {
         box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
     }
     
